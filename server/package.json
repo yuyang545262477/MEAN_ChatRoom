@@ -2,6 +2,7 @@
   "name": "scotch-chat",
   "main": "server.js",
   "dependencies": {
+    "express": "^4.13.4",
     "mongoose": "^4.4.20",
     "morgan": "^1.7.0",
     "socket.io": "^1.4.6"
