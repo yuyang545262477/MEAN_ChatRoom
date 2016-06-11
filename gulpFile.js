@@ -11,10 +11,10 @@ gulp.task('run', shell.task([
 gulp.task('build', function(cb) {
 
     // Read package.json
-    var package = require('./package.json')
+    var package = require('./package.json');
 
     // Find out which modules to include
-    var modules = []
+    var modules = [];
     if (!!package.dependencies) {
         modules = Object.keys(package.dependencies)
             .filter(function(m) {
